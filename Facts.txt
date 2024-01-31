@@ -1,1 +1,7 @@
 .\env\Scripts\activate
+
+django-admin startproject merchex
+
+python manage.py runserver
+
+python manage.py startapp listings
