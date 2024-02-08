@@ -5,3 +5,9 @@ django-admin startproject merchex
 python manage.py runserver #in merchex
 
 python manage.py startapp listings
+
+python manage.py makemigrations
+
+python manage.py shell
+
+from listings.models import Band

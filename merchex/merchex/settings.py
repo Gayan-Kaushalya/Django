@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'listings',                          # So this is the last to load
+    
 ]
 
 MIDDLEWARE = [
