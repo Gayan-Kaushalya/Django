@@ -1,6 +1,6 @@
 .\env\Scripts\activate #in FirstApp
 
-django-admin startproject merchex
+django-admin startproject merchex #To create project for the first time
 
 python manage.py runserver #in merchex
 
