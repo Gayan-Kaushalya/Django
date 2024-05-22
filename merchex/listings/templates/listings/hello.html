@@ -1,6 +1,9 @@
+{% extends "listings/base.html" %}
+
 <html>
-    <head><title>Merchex</title></head>
-    <body>
+
+    {% block content %}
+
         <h1>Hello Django!</h1>
         <p>My favourite bands are:</p>
         <ul>
@@ -21,6 +24,9 @@
                 many
             {% endif %}
                 favourite bands.
+               
         </p>
-    </body>
+
+    {% endblock %}
+
 </html>
