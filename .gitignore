@@ -1,2 +1,4 @@
 env/
 merchex/db.sqlite3
+merchex/listings/migrations
+merchex/listings/__pycache__
